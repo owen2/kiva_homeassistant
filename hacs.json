@@ -1,0 +1,9 @@
+{
+  "name": "Kiva",
+  "content_in_root": false,
+  "render_readme": true,
+  "domains": [
+    "kiva"
+  ],
+  "homeassistant": "2024.1.0"
+}
