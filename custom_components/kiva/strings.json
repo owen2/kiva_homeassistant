@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect your Kiva account",
+        "description": "Enter your Kiva API OAuth 1.0 credentials. You can create an app and obtain these at [kiva.org/build/docs]({docs_url}).",
+        "data": {
+          "consumer_key": "Consumer Key (App ID)",
+          "consumer_secret": "Consumer Secret",
+          "access_token": "Access Token",
+          "access_token_secret": "Access Token Secret"
+        },
+        "data_description": {
+          "consumer_key": "The App ID / Consumer Key from your Kiva developer app.",
+          "consumer_secret": "The Consumer Secret from your Kiva developer app.",
+          "access_token": "Your OAuth access token (obtained after authorizing the app).",
+          "access_token_secret": "Your OAuth access token secret."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to Kiva — check your network and try again.",
+      "invalid_auth": "Invalid credentials — verify your Consumer Key, Consumer Secret, Access Token, and Access Token Secret.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This Kiva account is already configured."
+    }
+  }
+}

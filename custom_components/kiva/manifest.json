@@ -1,0 +1,11 @@
+{
+  "domain": "kiva",
+  "name": "Kiva",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://www.kiva.org/build/docs",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": ["oauthlib==3.2.2"],
+  "version": "1.0.0"
+}
